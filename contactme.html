@@ -1,42 +1,71 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title> My Website</title>
-  <link rel="stylesheet" type= "text/css" href="stylecontact.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web desgins">
+    <meta name="author" content="Rodolf Rodriguez">
+    <title>Rodolf Web Design|Welcome</title>
+    <link href="bootstrap.min.css" rel="stylesheet.css">
+    <link href="fa/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type= "text/css" href="style.css">
+  </head>
 
-  <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a class="active"  href="contactme.html">Contact Me</a></li>
-  <li><a href="contact.asp">About Me</a></li>
-</ul>
+  <body>
+	   <header>
+	      <div class="container">
+	         <div id="branding">
+             <img style="inline" src="./images/food.png">
+	            <h1> The Developer</h1>
+            </div>
+	          <nav>
+	            <ul>
+      		      <li><a href="index.html">Home</a></li>
+      		      <li class="current"><a href="contactme.html">Contact Me</a></li>
+      		      <li><a href="aboutme.html">About Me</a></li>
+   	          </ul>
+            </div>
+	</header>
 
-<h1> Get in touch! Contact me now!</h1>
+	<section id="showcase">
+	  <div class="container">
+	    <h1> <span class="highlight"> Kiwi </span>The Tech Monkey </h1>
+	    <p> We squeeze out information. We design, develop and create websites just for you!  </p>
+	  </div>
+  </section>
 
-<h3>Contact Form</h3>
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./images/ruby.png">
+          <h3> Ruby Language </h3>
+          <p> Beginner in Ruby Language <p>
+        </div>
+        <div class="box">
+          <img src="./images/webdesign.png">
+          <h3> Web Designing </h3>
+          <p> beginner in HTML5 and CSS <p>
+        </div>
+        <div class="box">
+          <img src="./images/dota2.png">
+          <h3> Dota2 Gamer </h3>
+          <p> Play hard, Code harder. <p>
+        </div>
+      </div>
+    </section>
 
-<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
-</body>
+    <footer>
+    <div class="container">
+    <div class="icons">
+      <ul>
+          <li><a href="https://www.facebook.com/rodolf.rodriguez.3"> <img src="images/facebook.png" alt="facebook"></a></li>
+          <li><a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="linkedin"></a></ul>
+          <li><a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=act"><img src="images/google.png" alt="google"></a></li>
+          <p>Kiwi Developer, Copyright &copy;2017</p>
+      </ul>
+  </div>
+  </div>
+    </footer>
+  </body>
 </html>
