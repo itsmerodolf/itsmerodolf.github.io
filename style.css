@@ -89,10 +89,11 @@ header a:hover{
 #showcase{
   min-height: 400px;
   background:url('images/mk.jpg') no-repeat 0px -350px;
-text-align: center;
+  text-align: center;
   background-size: cover;
   color:#ffffff;
   border-bottom:green 3px solid;
+  overflow: hidden;
 }
 
 #showcase h1 .highlight{
@@ -154,8 +155,9 @@ text-align: center;
 footer{
   padding:20px;
   color: black;
-  background-color:gray;
+  background-color: #D6CA31;
   text-align: left;
+  height: 20px;
 }
 
 footer li{
