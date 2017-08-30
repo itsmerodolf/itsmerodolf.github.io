@@ -1,2 +1,3 @@
 # itsmerodolf.github.io
-Beginner
+beginner in coding and programming.
+all my progress will be seen here.
