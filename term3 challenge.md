@@ -70,9 +70,8 @@ jQuery is a JavaScript library that allows web developers to add extra functiona
     });
 });
 ```
-
-
-
+# rating 5/5
+![N|Solid](http://www.courierhacker.com/wp-content/uploads/2016/01/5-star-rating.png)
 
 
 
